@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #fed301;
+    font-size: 55px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 32px;
+    color: #fed301;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    color: #940101;
+    font-weight: 300;
+}
+
+h4 {
+    color: #fed301;
+    font-weight: 400;
+
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col-1-of-2 {
+    text-align: center;
+    width: 47%;
+    float: left;
+    margin: 0 12px 24px 12px;
+}
+
+header {
+    background-image: url(/img/bg1.jpeg);
+    background-position: center;
+    background-size: contain;
+    height: 600px;
+}
+
+.headerTop {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin: 40px 0px;
+
+}
+
+.headerTop nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 80px;
+}
+
+nav ul li a {
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+nav ul li a:hover {
+    color: #fed301;
+    transition: all 0.3s ease-in;
+}
+
+.hrTop {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+    height: 2px;
+}
+
+.headerContent p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 90px;
+}
+
+.headerContent {
+    text-align: center;
+}
+
+.developer {
+    color: white;
+    font-weight: 900;
+}
+
+.main-btn {
+    padding: 15px 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #fed301;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.main-btn:hover {
+    color: #fed301;
+    background-color: white;
+}
+
+.read {
+    display: block;
+    color: #940101;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.col-1-of-1 h2 {
+    text-align: center;
+}
+.postDate{
+    color: #940101;
+    margin-top: -10px
+}
+.col-1-of-1 a{
+    display: block;
+    color: #940101;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.hrBottom{
+    background-color: rgba(195, 33, 33, 0.3);
+    border: 0;
+    height: 2px;
+    margin-bottom: 50px;
+}
+footer{
+    padding: 30px 0px;
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+}
+footer p,footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+footer li{
+    margin-left: -30px;
+}
+form{
+    width:10%;
+    padding: 30px;
+}
+form input{
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+form input:hover , textarea:hover{
+    border: 2px solid #fed301;
+    
+}
+.mail:hover{
+    color: #940101;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wpnbtn button {
+    font-size: 24px;
+    background-color: #00E676;
+    color: white;
+    border-radius: 12px;
+    padding: 14px 22px;
+}
+
+.wpnbtn button:hover {
+    font-size: 24px;
+    background-color: white;
+    border: 2px solid #00E676;
+    color: #00E676;
+}
